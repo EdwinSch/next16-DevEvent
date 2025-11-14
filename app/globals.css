@@ -8,8 +8,6 @@
   --color-light-100: #e7f2ff;
   --color-light-200: #bdbdbd;
   --color-border-dark: #151024;
-  --color-dark-100: #0d161a;
-  --color-dark-200: #182830;
   --radius: 0.625rem;
   --background: #030708;
   --foreground: #ffffff;
@@ -44,7 +42,19 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
-@theme inline {
+@theme {
   --font-schibsted-grotesk: var(--font-schibsted-grotesk);
   --font-martian-mono: var(--font-martian-mono);
+  --color-shadeBlue: #00cbff;
+  --color-dark-100: #0d161a;
+  --color-dark-200: #182830;
+}
+
+body {
+  font-family: var(--font-schibsted-grotesk);
+  background-color: var(--background);
+}
+
+.inspect {
+  border: solid red 1px;
 }
