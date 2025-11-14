@@ -55,6 +55,13 @@ body {
   background-color: var(--background);
 }
 
+.eventcard-info {
+  font-family: var(--font-martian-mono);
+  color: var(--color-light-200);
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .inspect {
   border: solid red 1px;
 }

@@ -2,7 +2,7 @@ import ExploreButton from "./ExploreButton";
 
 const Hero = () => {
   return (
-    <div className="my-28 px-5 flex flex-col items-center">
+    <div className="my-28 flex flex-col items-center">
       <h1 className="text-center capitalize text-4xl md:text-6xl to-shadeBlue bg-linear-to-b from-white via-white bg-clip-text font-semibold text-transparent">
         the hub for every <br /> dev event you can&apos;t miss
       </h1>

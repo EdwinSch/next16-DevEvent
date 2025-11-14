@@ -5,10 +5,7 @@ import Image from "next/image";
 const ExploreButton = () => {
   return (
     <button
-      onClick={() => {
-        console.log("Clicked");
-      }}
-      className="bg-dark-200 mt-7 py-3.5 px-7 text-white capitalize rounded-full border border-white cursor-pointer flex items-center gap-1"
+      className="w-full sm:w-fit bg-dark-200 mt-7 py-3.5 px-7 text-white capitalize rounded-full border border-white cursor-pointer flex items-center justify-center gap-1"
       type="button"
       id="explore-btn"
     >
